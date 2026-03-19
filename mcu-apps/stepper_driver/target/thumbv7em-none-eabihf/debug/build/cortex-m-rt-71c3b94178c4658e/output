@@ -1,0 +1,6 @@
+cargo:rustc-cfg=cortex_m
+cargo:rustc-cfg=armv7m
+cargo:rustc-cfg=has_fpu
+cargo:rustc-link-search=/home/rambo/projects/embedded/ripper (klipper in rust)/mcu-apps/stepper_driver/target/thumbv7em-none-eabihf/debug/build/cortex-m-rt-71c3b94178c4658e/out
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=link.x.in

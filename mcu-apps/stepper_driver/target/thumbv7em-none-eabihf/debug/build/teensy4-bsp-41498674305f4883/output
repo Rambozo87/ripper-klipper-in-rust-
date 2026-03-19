@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/home/rambo/projects/embedded/ripper (klipper in rust)/mcu-apps/stepper_driver/target/thumbv7em-none-eabihf/debug/build/teensy4-bsp-41498674305f4883/out
+cargo:rerun-if-env-changed=TEENSY4_STACK_SIZE
+cargo:rerun-if-env-changed=TEENSY4_HEAP_SIZE

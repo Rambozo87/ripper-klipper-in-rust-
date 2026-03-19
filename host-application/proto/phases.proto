@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package data;
+
+message MotionProfile {
+  repeated Phase phases = 1;
+}
+
+message Phase {
+  float duration = 1;
+  float jerk = 2;
+
+  float target_velocity = 3;
+  float target_position = 4;
+}

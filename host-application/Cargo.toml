@@ -1,0 +1,9 @@
+[package]
+name = "host-application"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+prost = "0.12"
+tokio = { version = "1.35", features = ["rt", "rt-multi-thread", "io-util", "macros"] }
+serial2 = "0.2"

@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/home/rambo/projects/embedded/ripper (klipper in rust)/mcu-apps/stepper_driver/target/thumbv7em-none-eabihf/debug/build/imxrt-ral-ba3c89083aba6bd7/out
+cargo:rerun-if-changed=src/imxrt1062.x
+cargo:rerun-if-changed=build.rs
